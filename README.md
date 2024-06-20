@@ -17,14 +17,14 @@ Program can receive multiple ".as" files as an input, but will refer to each fil
 ### Running steps
 - Preprocessor:
 
-Receives ".as" file and creates ".am" after expanding macro statements.
+  Receives ".as" file and creates ".am" after expanding macro statements.
 
 - First step:
 
-Get the file that the user enter and read it, while reading the function counter how many place the file need for the data and for the commands.
+  Get the file that the user enter and read it, while reading the function counter how many place the file need for the data and for the commands.
 
 - Second step:
 
-parse the first time the file, and encode the file according to the commands or directive, that is writen in the file, the function cautions if an input error exists. Third step:
+  parse the first time the file, and encode the file according to the commands or directive, that is writen in the file, the function cautions if an input error exists. Third step:
 
-Keep track of location counter, translate instructions and output into files.
+  Keep track of location counter, translate instructions and output into files.
